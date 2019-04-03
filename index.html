@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+
+    <form name="validation">
+
+        <label> Enter your name: </label>
+        <input type="text" name="name-input">
+        <div id="name-error"></div>
+        <br />
+
+        <label> Enter your message: </label>
+        <textarea type="text" name="textarea-input"></textarea>
+        <div id="text-error"></div>
+        <br />
+
+        <label>Enter the following digits:</label>
+
+        <input type="number" name="captcha-input" />
+
+        <div id="captcha-error"></div>
+
+        <div id="captcha-digits">
+            <img class="capchaDigit" id="captcha0" src="">
+            <img class="capchaDigit" id="captcha1" src="">
+            <img class="capchaDigit" id="captcha2" src="">
+            <img class="capchaDigit" id="captcha3" src="">
+            <img class="capchaDigit" id="captcha4" src="">
+            <img class="capchaDigit" id="captcha5" src="">
+
+
+        </div>
+        
+
+        <button type="button" onclick="validateForm()">send</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
