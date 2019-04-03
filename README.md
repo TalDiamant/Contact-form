@@ -5,7 +5,7 @@ Basic form for contact use with validation steps and captcha digits
 HTML, SCSS, Javascript, 
 
 ## Screenshot:
-![screenshot](images\contact.PNG)
+![screenshot](images/contact.PNG)
 
 ## Getting Started
 no additional installs
